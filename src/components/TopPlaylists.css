@@ -1,0 +1,39 @@
+.top-playlists {
+    display: inline-block;
+    max-width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.playlists-title {
+    font-family: Metropolis;
+    font-size: 3vw;
+    margin: 0 auto;
+}
+
+.card {
+    max-width: 30vw;
+    left: 50vw;
+    display: flex;
+    justify-content: center;
+}
+
+.card-text {
+    display: flex;
+    margin: 3vh 0;
+}
+
+.card h2 {
+    font-family: Bagnard;
+    margin-right: 1vw;
+    font-size: 1.5vw;
+}
+
+.card h1 {
+    font-family: Bagnard;
+    font-size: 2vw;
+}
+
+.slick-slide {
+    width: 100px;
+}

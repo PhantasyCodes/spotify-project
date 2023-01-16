@@ -4,6 +4,7 @@ import arrowLeft from '../assets/images/arrow-left.png'
 import pinkRight from '../assets/images/pink-right.png'
 import {motion} from 'framer-motion'
 import { Link } from 'react-router-dom'
+import TopPlaylists from './TopPlaylists'
 
 import './Hero.css'
 import './PlaylistHero.css'
@@ -78,9 +79,7 @@ const PlaylistHero = () => {
                     <img src={pinkRight} alt="arrow" />
             </motion.div>
         </Link> 
-        <iframe src="https://open.spotify.com/embed/playlist/3102CluYRWvPoAAXasOB4J?utm_source=generator" width="20%" height="352" frameBorder="0">
-
-        </iframe>
+        <TopPlaylists />
         <div className="powered">
             <img src={spotify} alt="spotify"/>
             <p>Powered by Spotify</p>
