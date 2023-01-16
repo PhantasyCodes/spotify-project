@@ -1,0 +1,22 @@
+.playlist-hero {
+    background-color: #FFA5C7;
+}
+
+.prev-page {
+    background-color: #FFE5D9;
+    left: -70vh;
+    justify-content: flex-end;
+}
+
+.prev-page img {
+    max-width: 10vw;
+    margin-right: 3vw;
+}
+
+.logo {
+    display:inline-block
+}
+
+.logo span {
+    display:inline-block
+}

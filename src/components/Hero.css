@@ -1,0 +1,78 @@
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFE5D9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    font-family: Peace Sans;
+    margin-top: 4vh;
+    font-size: 4vw;
+    font-weight: 300;
+    overflow-y: hidden;
+}
+
+.logo span {
+    margin: 1vw;
+}
+
+.hero-text {
+    margin-top: 20vh;
+    font-family: Metropolis;
+    font-size: 5vw;
+    font-weight: 100;
+    max-width: 40vw;
+    text-align: center;
+}
+
+.hero-text span {
+    font-family: Bagnard;
+}
+
+.next-page {
+    height: 100vh;
+    width: 100vh;
+    background-color: #FFA5C7;
+    position: absolute;
+    top: 0;
+    right: -70vh;
+    border-radius: 50vh;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.next-page:hover {
+    transform: scale(150%);
+}
+
+.next-page img {
+    max-width: 10vw;
+    margin-left: 3vw;
+}
+
+.powered {
+    display: flex;
+    position: absolute;
+    bottom: 2vh;
+    left: 2vw;
+    align-items: center;
+}
+
+.powered img {
+    max-width: 3vw;
+}
+
+.powered p {
+    font-family: Metropolis;
+    margin-left: 0.5vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
