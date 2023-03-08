@@ -45,11 +45,6 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    transition: 0.3s;
-}
-
-.next-page:hover {
-    transform: scale(150%);
 }
 
 .next-page img {

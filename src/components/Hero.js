@@ -22,12 +22,15 @@ const Hero = () => {
         </div>
         <motion.h1 
             exit={{opacity: 0}} 
-            transition={transition} 
+            transition={{ duration: 0.1 }}
             className='hero-text'>Stand out for <span>being you</span>
         </motion.h1>
         <Link to={`/playlists`}>
             <motion.div 
-                exit={{scale: 15}}
+                initial={{ opacity:0 , scale:1 }} 
+                animate={{ opacity: 1 }} 
+                whileHover={{ scale: 1.5,  transition: {duration:0.3} }}
+                transition={{ duration:0.9  }}
                 className="next-page">
                 <img src={arrowRight} alt="arrow" />
             </motion.div>

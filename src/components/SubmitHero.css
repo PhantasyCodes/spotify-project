@@ -1,0 +1,37 @@
+.submission {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+.submission h2 {
+    font-family: Bagnard;
+    font-size: 2vw;
+}
+
+.submission form {
+    height: 5vh;
+    border: solid black 3px;
+    margin-top: 2vh;
+    border-radius: 10vw;
+}
+
+.submission form input[type="text"] {
+    height: 100%;
+    width: 45vw;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.submission form input[type="submit"] {
+    background-color: #FFA5C7;
+    border: none;
+    border-radius: 10vw;
+    outline: 3px solid black;
+    height: 100%;
+    width: 10vw;
+    font-family: Bagnard;
+    font-size: 1.5vw;
+}
